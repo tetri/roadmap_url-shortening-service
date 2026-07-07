@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A RESTful API for shortening long URLs, built with Node.js, Express, TypeScript, and SQLite.",
   "main": "dist/index.js",
+  "engines": {
+    "node": ">=20.12.0"
+  },
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "build": "tsc",
